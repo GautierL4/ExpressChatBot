@@ -22,6 +22,7 @@ async function connectDb(){
     catch(ex){
         console.log(ex.stack);
     }
+    
     client.close();
 }
 
